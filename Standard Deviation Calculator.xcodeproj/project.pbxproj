@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72A7D09814E10685006218CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A7D09714E10685006218CE /* UIKit.framework */; };
+		72A7D09A14E10685006218CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A7D09914E10685006218CE /* Foundation.framework */; };
+		72A7D09C14E10685006218CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A7D09B14E10685006218CE /* CoreGraphics.framework */; };
+		72A7D0A214E10685006218CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72A7D0A014E10685006218CE /* InfoPlist.strings */; };
+		72A7D0A414E10685006218CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A7D0A314E10685006218CE /* main.m */; };
+		72A7D0A814E10685006218CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A7D0A714E10685006218CE /* AppDelegate.m */; };
+		72A7D0AB14E10685006218CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A7D0AA14E10685006218CE /* ViewController.m */; };
+		72A7D0AE14E10685006218CE /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72A7D0AC14E10685006218CE /* ViewController_iPhone.xib */; };
+		72A7D0B114E10685006218CE /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72A7D0AF14E10685006218CE /* ViewController_iPad.xib */; };
+		72A7D0BB14E5AFB1006218CE /* calcoverhead.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A7D0BA14E5AFB1006218CE /* calcoverhead.png */; };
+		72A7D0BD14E5C2E2006218CE /* CalcDesign.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A7D0BC14E5C2E2006218CE /* CalcDesign.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72A7D09314E10685006218CE /* Standard Deviation Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Standard Deviation Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A7D09714E10685006218CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		72A7D09914E10685006218CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		72A7D09B14E10685006218CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		72A7D09F14E10685006218CE /* Standard Deviation Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Standard Deviation Calculator-Info.plist"; sourceTree = "<group>"; };
+		72A7D0A114E10685006218CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72A7D0A314E10685006218CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72A7D0A514E10685006218CE /* Standard Deviation Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Standard Deviation Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		72A7D0A614E10685006218CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72A7D0A714E10685006218CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72A7D0A914E10685006218CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		72A7D0AA14E10685006218CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		72A7D0AD14E10685006218CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		72A7D0B014E10685006218CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		72A7D0BA14E5AFB1006218CE /* calcoverhead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calcoverhead.png; sourceTree = "<group>"; };
+		72A7D0BC14E5C2E2006218CE /* CalcDesign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalcDesign.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72A7D09014E10685006218CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A7D09814E10685006218CE /* UIKit.framework in Frameworks */,
+				72A7D09A14E10685006218CE /* Foundation.framework in Frameworks */,
+				72A7D09C14E10685006218CE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72A7D08814E10685006218CE = {
+			isa = PBXGroup;
+			children = (
+				72A7D09D14E10685006218CE /* Standard Deviation Calculator */,
+				72A7D09614E10685006218CE /* Frameworks */,
+				72A7D09414E10685006218CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72A7D09414E10685006218CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72A7D09314E10685006218CE /* Standard Deviation Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72A7D09614E10685006218CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72A7D09714E10685006218CE /* UIKit.framework */,
+				72A7D09914E10685006218CE /* Foundation.framework */,
+				72A7D09B14E10685006218CE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72A7D09D14E10685006218CE /* Standard Deviation Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				72A7D0B914E5ADCD006218CE /* Images */,
+				72A7D0A614E10685006218CE /* AppDelegate.h */,
+				72A7D0A714E10685006218CE /* AppDelegate.m */,
+				72A7D0A914E10685006218CE /* ViewController.h */,
+				72A7D0AA14E10685006218CE /* ViewController.m */,
+				72A7D0AC14E10685006218CE /* ViewController_iPhone.xib */,
+				72A7D0AF14E10685006218CE /* ViewController_iPad.xib */,
+				72A7D09E14E10685006218CE /* Supporting Files */,
+			);
+			path = "Standard Deviation Calculator";
+			sourceTree = "<group>";
+		};
+		72A7D09E14E10685006218CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72A7D09F14E10685006218CE /* Standard Deviation Calculator-Info.plist */,
+				72A7D0A014E10685006218CE /* InfoPlist.strings */,
+				72A7D0A314E10685006218CE /* main.m */,
+				72A7D0A514E10685006218CE /* Standard Deviation Calculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72A7D0B914E5ADCD006218CE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				72A7D0BA14E5AFB1006218CE /* calcoverhead.png */,
+				72A7D0BC14E5C2E2006218CE /* CalcDesign.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72A7D09214E10685006218CE /* Standard Deviation Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72A7D0B414E10685006218CE /* Build configuration list for PBXNativeTarget "Standard Deviation Calculator" */;
+			buildPhases = (
+				72A7D08F14E10685006218CE /* Sources */,
+				72A7D09014E10685006218CE /* Frameworks */,
+				72A7D09114E10685006218CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Standard Deviation Calculator";
+			productName = "Standard Deviation Calculator";
+			productReference = 72A7D09314E10685006218CE /* Standard Deviation Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72A7D08A14E10685006218CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 72A7D08D14E10685006218CE /* Build configuration list for PBXProject "Standard Deviation Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 72A7D08814E10685006218CE;
+			productRefGroup = 72A7D09414E10685006218CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72A7D09214E10685006218CE /* Standard Deviation Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72A7D09114E10685006218CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A7D0A214E10685006218CE /* InfoPlist.strings in Resources */,
+				72A7D0AE14E10685006218CE /* ViewController_iPhone.xib in Resources */,
+				72A7D0B114E10685006218CE /* ViewController_iPad.xib in Resources */,
+				72A7D0BB14E5AFB1006218CE /* calcoverhead.png in Resources */,
+				72A7D0BD14E5C2E2006218CE /* CalcDesign.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72A7D08F14E10685006218CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A7D0A414E10685006218CE /* main.m in Sources */,
+				72A7D0A814E10685006218CE /* AppDelegate.m in Sources */,
+				72A7D0AB14E10685006218CE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72A7D0A014E10685006218CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72A7D0A114E10685006218CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		72A7D0AC14E10685006218CE /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72A7D0AD14E10685006218CE /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		72A7D0AF14E10685006218CE /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72A7D0B014E10685006218CE /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72A7D0B214E10685006218CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72A7D0B314E10685006218CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72A7D0B514E10685006218CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Standard Deviation Calculator/Standard Deviation Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Standard Deviation Calculator/Standard Deviation Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		72A7D0B614E10685006218CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Standard Deviation Calculator/Standard Deviation Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Standard Deviation Calculator/Standard Deviation Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72A7D08D14E10685006218CE /* Build configuration list for PBXProject "Standard Deviation Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72A7D0B214E10685006218CE /* Debug */,
+				72A7D0B314E10685006218CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72A7D0B414E10685006218CE /* Build configuration list for PBXNativeTarget "Standard Deviation Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72A7D0B514E10685006218CE /* Debug */,
+				72A7D0B614E10685006218CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72A7D08A14E10685006218CE /* Project object */;
+}
